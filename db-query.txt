@@ -1,0 +1,9 @@
+CREATE TABLE `products` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `barcode` varchar(20) NOT NULL,
+  `url` varchar(300) DEFAULT NULL,
+  `qr` mediumtext,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `BARINDEX` (`barcode`) USING BTREE,
+  UNIQUE KEY `URLINDEX` (`url`) USING BTREE
+)

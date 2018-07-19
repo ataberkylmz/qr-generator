@@ -1,0 +1,9 @@
+{
+    "host" : "YOUR_DB_HOST",
+    "user" : "root",
+    "pass" : "YOUR_DB_PASS",
+    "db" : "node",
+    "table" : "products",
+    "apiUrl" : "http://qrickit.com/api/qr.php?d=",
+    "apiExt" : "&qrsize=200&&t=p&e=m"
+}

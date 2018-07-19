@@ -1,0 +1,22 @@
+{
+  "name": "qr-generator",
+  "version": "1.0.0",
+  "description": "Simple QR code generator",
+  "main": "qr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ata Berk YILMAZ",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mysql": "^2.15.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "mysql": "^2.16.0",
+    "optimist": "^0.6.1"
+  }
+}
