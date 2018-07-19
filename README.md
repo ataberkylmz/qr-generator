@@ -12,12 +12,15 @@ For example, if you want to change the generated file's resolution, change `&qrs
 
 ## Usage
 Simple QR code generation that gives "qr.png" as output in the dir folder.
+
 `> node qr.js -u www.example.com/product-21`
 
 To specify output file's name, use -n. This usage will produce a file named "product.png" under the dir folder.
+
 `> node qr.js -u www.example.com/product-21 -n product21`
 
 To save the results in a MySQL database, use -b. But first configure the "config.json" file.
+
 `> node qr.js -u www.example.com/product-21 -n product21 -b 000021`
 
 ## Thanks
